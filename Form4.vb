@@ -17,7 +17,5 @@
         ' Add any initialization after the InitializeComponent() call.
 
     End Sub
-    Private Sub Form4_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        My.Computer.Audio.Play(My.Resources.Angry_Birds_Rio_Background_music, AudioPlayMode.BackgroundLoop)
-    End Sub
+   
 End Class
