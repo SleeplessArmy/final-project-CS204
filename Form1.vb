@@ -6,6 +6,15 @@
         End If
         If ProgressBar1.Value = 99 Then
             Timer1.Enabled = False
+            Dim a As New Form2
+            Me.Hide()
+            a.Show()
+
         End If
+    End Sub
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Timer1.Start()
+
     End Sub
 End Class
