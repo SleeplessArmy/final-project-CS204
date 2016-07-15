@@ -13,5 +13,14 @@
         Cursor.Position = PointToScreen(StartingPoint)
 
     End Sub
+    Public Sub New()
+
+        ' This call is required by the designer.
+        InitializeComponent()
+        MoveToStart()
+
+        ' Add any initialization after the InitializeComponent() call.
+
+    End Sub
 
 End Class
