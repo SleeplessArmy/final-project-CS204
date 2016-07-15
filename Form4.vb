@@ -7,12 +7,7 @@
         a.Show()
 
     End Sub
-    Private Sub MoveToStart()
-        Dim StartingPoint = Panel1.Location
-        StartingPoint.Offset(15, 15)
-        Cursor.Position = PointToScreen(StartingPoint)
-
-    End Sub
+  
     Public Sub New()
 
         ' This call is required by the designer.
